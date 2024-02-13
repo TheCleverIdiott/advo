@@ -1,0 +1,73 @@
+@use "sass:color";
+
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+$primary: #181823;
+$accent: #537FE7;
+$secondary : #D9D9D9;
+$primary-100: #f0f2fe;
+$primary-200: #cfd7f7;
+$primary-400: #708dff;
+// $secondary-100: #e2e4ee;
+// $secondary-200: #dee0ea;
+// $background: #f0f2f5;
+$success: #5cdd2c;
+$error: #ff4d4f;
+$warning: #faad14;
+
+$green: #1ec895;
+$yellow: #ff862e;
+$purple: #9646ef;
+$red: #f73463;
+
+//lighter shades of color
+$green-200: color.scale($green, $lightness: 70%);
+$yellow-200: color.scale($yellow, $lightness: 70%);
+$purple-200: color.scale($purple, $lightness: 70%);
+$red-200: color.scale($red, $lightness: 70%);
+
+$green-100: color.scale($green, $lightness: 85%);
+$yellow-100: color.scale($yellow, $lightness: 85%);
+$purple-100: color.scale($purple, $lightness: 85%);
+$red-100: color.scale($red, $lightness: 85%);
+
+$gray-10: #fafcff;
+$gray-50: #f8fafc;
+$gray-100: #f1f5f9;
+$gray-200: #e2e8f0;
+$gray-300: #cbd5e1;
+$gray-400: #94a3b8;
+$gray-500: #64748b;
+$gray-600: #475569;
+$gray-700: #334155;
+$gray-800: #1e293b;
+$gray-900: #0f172a;
+
+$background: $gray-50;
+$secondary-100: $gray-200;
+$secondary-200: $gray-300;
+
+$marg-xl: 24px;
+$marg-lg: 16px;
+$marg-md: 10px;
+$marg-sm: 6px;
+$marg-xs: 4px;
+
+$text-h1: 28px;
+$text-h2: 24px;
+$text-h3: 20px;
+$text-h4: 18px;
+$text-h5: 16px;
+$text-md: 14px;
+$text-sm: 13px;
+$text-xs: 12px;
+
+$radi-sm: 4px;
+$radi-md: 6px;
+$radi-lg: 8px;
+
+$border: 2px solid $gray-200;
+$shadow: 1px 3px 8px 1px $gray-200;

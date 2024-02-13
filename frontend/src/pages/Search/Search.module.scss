@@ -1,0 +1,254 @@
+@use "../../styles/variables.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+
+.parentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+
+  .heading-n{
+    align-items: center;
+  }
+
+  h1{
+    font-family: 'Tilt Warp', cursive;
+    margin-bottom: 0;
+  }
+
+  .top {
+    width: 100%;
+    height: 3rem;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+    .navButtons {
+      .navButtonsLinks {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: white;
+
+        padding: 0.5rem 0.8rem;
+        transition: 0.2s ease-in;
+        border-radius: 6px;
+
+        &:hover{
+          background-color:#012f9987;
+
+        }
+      }
+
+      text-decoration: none;
+      font-size: 0.8rem;
+      width: 15%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top_left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        background-color: $accent;
+        margin-right: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .bottom {
+    width: 100%;
+    height: calc(100% - 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .search_container {
+      width: 20%;
+      height: 100%;
+      box-sizing: border-box;
+      border-right: 1px solid $secondary;
+
+      display: flex;
+
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+
+      .search_box {
+        height: 32%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 1rem 1rem 1rem;
+
+        h5 {
+          width: 95%;
+          padding: 1rem 0rem 1rem 0.5rem;
+          box-sizing: border-box;
+          margin: 0;
+          color: rgb(46, 46, 46);
+          font-weight: 900;
+          margin-top: 0;
+        }
+
+        .input_section {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .input_field {
+            width: 70%;
+            padding: 0.8rem 1rem;
+            border-radius: 8px;
+            border: none;
+            background-color: $secondary;
+            font-size: $text-md;
+            font-weight: 500;
+
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+
+        .button {
+          background-color: $primary;
+          width: 100%;
+          margin-top: 1rem;
+          padding: 0.8rem;
+          box-sizing: border-box;
+          border: none;
+          border-radius: 8px;
+          font-size: $text-md;
+          font-weight: 500;
+          color: whitesmoke;
+          cursor: pointer;
+
+          &:hover {
+            background-color: $primary;
+            opacity: 0.9;
+          }
+        }
+      }
+      .tag_container {
+        width: 100%;
+        height: 67%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-top: 1px solid rgb(213, 213, 213);
+
+        h5 {
+          width: 95%;
+          padding: 1rem 0rem 1rem 0.5rem;
+          box-sizing: border-box;
+          margin: 0;
+          color: rgb(46, 46, 46);
+          font-weight: 900;
+
+          margin-left: 1rem;
+          margin-right: 1rem;
+          border-bottom: 1.5px solid rgb(236, 236, 236);
+        }
+
+        .tag_box {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+          margin-bottom: 1rem;
+
+          background-color: rgb(250, 250, 250);
+          height: 600px;
+          overflow-y: scroll;
+
+          &::-webkit-scrollbar {
+            display: none;
+          }
+
+          .tag {
+            padding: 0.8rem 0.5rem;
+            background-color: #a0bcfd;
+            margin: 0.3rem 0;
+            width: 90%;
+            border-radius: 6px;
+            font-size: $text-sm;
+            color: #0944cd;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+              margin-right: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+
+    .results_container {
+      width: 80%;
+      height: 100%;
+      background-color: #efefef;
+      padding: 1rem;
+      box-sizing: border-box;
+      overflow-y: scroll;
+
+      .information {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: rgb(54, 54, 54);
+
+        .information_center {
+          width: 50%;
+          text-align: center;
+          font-size: 1rem;
+          font-weight: 500;
+          color: rgb(160, 160, 160);
+          line-height: 1.8rem;
+          padding: 2rem;
+          border-radius: 12px;
+          border: 1px solid $secondary;
+
+          span {
+            padding: 0.3rem;
+            background-color: $secondary;
+            border-radius: 6px;
+            font-size: 0.8rem;
+          }
+        }
+      }
+
+      h3 {
+        margin-top: 0;
+      }
+
+      .results {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

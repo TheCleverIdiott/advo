@@ -1,0 +1,15 @@
+@use "../../styles/variables.scss" as *;
+
+.results_container{
+    padding: 1rem;
+    width: 100%;
+    height: calc(100vh - 3rem);
+    overflow-y: scroll;
+
+    .results{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

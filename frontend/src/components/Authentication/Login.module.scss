@@ -1,0 +1,45 @@
+@use "../../styles/variables.scss" as * ;
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+
+.parentContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0 2rem 0 2rem;
+
+    h1 , h3{
+        margin: 0.8rem;
+    }
+
+    h1{
+        font-size: $text-h1;
+
+        span{
+            font-family: 'Tilt Warp', cursive;
+        }
+    }
+
+    h3{
+        margin-bottom: 2.5rem;
+    }
+
+    .loginForm{
+        margin-left: 0.8rem;
+    }
+
+    p{
+        font-size: $text-xs;
+        margin-top: 0;
+    }
+
+    span{
+        
+        cursor: pointer;
+    }
+
+    
+}

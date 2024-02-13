@@ -1,0 +1,116 @@
+@use "../../styles/variables.scss" as *;
+
+.resultCardContainer {
+  max-width: 45%;
+  min-width: 400px;
+  min-height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  // background-color: red;
+  box-sizing: border-box;
+  padding:2rem 1rem;
+  border: 1px solid #bbcefa;
+margin-right: 1rem;
+margin-bottom: 1rem;
+  border-radius: 12px;
+  background-color: white;
+
+  .heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0rem 1rem 0;
+    opacity: 0.8;   
+  }
+
+  .resultMetaData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    p{
+      font-size: 0.9rem;
+    opacity: 0.8;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    }
+  }
+
+  .summary {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0 0rem 2rem 0;
+    line-height: 1.3rem;
+  }
+
+  .relatedTags {
+    margin-bottom: 1rem;
+
+    .tagHeading {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      opacity: 0.8;
+    }
+
+    .tags {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+
+      span {
+        background-color:#bbcfff;
+        padding: 0.5rem 1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 4px;
+        color:#1a54db;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .buttons{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .link{
+      width: 80%;
+      .button {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 600;
+        background-color: $primary;
+        border-radius: 6px;
+        cursor: pointer;
+        align-items: center;
+      }
+    }
+
+    .button {
+      width: 80%;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background-color: $primary;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+ 
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <link href="../static/css/index.css" rel="stylesheet">
+  
+  <title>Animated Login Page</title>
+</head>
+<body>
+    <!-- Animated Wave Background  -->
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <!-- Log In Form Section -->
+    <section>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="/login" method="post">
+                    <h1>Sign Up</h1>
+                    <div class="social-container">
+                        <a href="https://Github.com/YasinDehfuli" target="_blank" class="social"><i class="fab fa-github"></i></a>
+                        <a href="https://Codepen.io/YasinDehfuli" target="_blank" class="social"><i class="fab fa-codepen"></i></a>
+                        <a href="mailto:Ydehfuli@gmail.com" target="_blank" class="social"><i class="fab fa-google"></i></a>
+                    </div>
+                    <span>Or use your Email for registration</span>
+                    <label>
+                        <input type="text" placeholder="Name" name="name" required/>
+                    </label>
+                    <label>
+                        <input type="email" placeholder="Email" name="email" required/>
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Password" name="password" required/>
+                        <input name="type" type="hidden" value="signup"/>
+                    </label>
+                    <button style="margin-top: 9px" type="submit" value="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="/login" method="post">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="https://Github.com/YasinDehfuli" target="_blank" class="social"><i class="fa-brands fa-google"></i></a>
+                        <a href="https://Codepen.io/YasinDehfuli" target="_blank" class="social"><i class="fab fa-codepen"></i></a>
+                        <a href="mailto:Ydehfuli@gmail.com" target="_blank" class="social"><i class="fab fa-google"></i></a>
+                    </div>
+                    <span> Or sign in using E-Mail Address</span>
+                    <label>
+                        <input type="email" placeholder="Email" name="email" required/>
+                    </label>
+                    <label>
+                        <input type="password" placeholder="Password" name="password" required/>
+                        <input name="type" type="hidden" value="login"/>
+                    </label>
+                    <a href="#">Forgot your password?</a>
+                    <button type="submit" value="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Log in</h1>
+                        <p>Sign in here if you already have an account </p>
+                        <button class="ghost mt-5" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Create, Account!</h1>
+                        <p>Sign up if you still don't have an account ... </p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="../static/js/index.js"></script>
+</html>
