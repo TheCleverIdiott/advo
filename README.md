@@ -2,7 +2,7 @@
 
 <div align='center'>
 <h1>advocate.ai</h1>
-<h2><a href="#demo">Deployed Link</a>  | <a href="https://drive.google.com/file/d/1ayP8ewKIUgUNJh2TEm-kUXHYxOdhNF30/view?usp=sharing">Video</a> | <a href="#">PPT</a>
+<h2><a href="#demo">Deployed Link</a>  | <a href="https://youtu.be/j869V86b8xw">Video</a> | <a href="#">PPT</a>
 </h2>	
 </div>
 
