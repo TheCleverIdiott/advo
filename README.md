@@ -48,8 +48,8 @@
 # Demo
 
 ### Version 3.0 (latest): <a href="https://advocate-ai.streamlit.app/">Click Here</a>
-### Version 2.0: <a href="https://advo-hehe.pages.dev/">Click Here</a>
-### Version 1.0: <a href="https://advo-ai.pages.dev/">Click Here</a>
+<!-- ### Version 2.0: <a href="https://advo-hehe.pages.dev/">Click Here</a>
+### Version 1.0: <a href="https://advo-ai.pages.dev/">Click Here</a> -->
 ### Login Credentials = 
 			username: hello@gmail.com, 
 			password: password
