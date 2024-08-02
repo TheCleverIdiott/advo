@@ -1,8 +1,12 @@
-# SIH2023 WINNING PROJECT    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7144994433355198464/"> (Link) </a>
+<div align="center">
+	
+## SIH2023 WINNING PROJECT    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7144994433355198464/"> (Link) </a>
+
+<div align="center">
 
 
 
-<div align="center"><img src="https://github.com/welocaltoast/advocate.ai/blob/main/assets/advo.gif" alt="Hello" width="120" /></div>
+<div align="center"><img src="https://github.com/welocaltoast/advocate.ai/blob/main/assets/advo.gif" alt="Hello" width="120" /><div align="center">
 
 <div align='center'>
 <h1>advocate.ai</h1>
