@@ -6,7 +6,7 @@
 
 <div align='center'>
 <h1>advocate.ai</h1>
-<h2><a href="#">Deployed Link</a>  | <a href="#">Video</a> | <a href="#">PPT</a>
+<h2><a href="https://advocateai.pages.dev/">Deployed Link</a>  | <a href="#">Video</a> | <a href="https://www.canva.com/design/DAF9acQPwZY/eZCRkBwmv-GMIkckjOGv1w/view?utm_content=DAF9acQPwZY&utm_campaign=designshare&utm_medium=link&utm_source=editor">PPT</a>
 </h2>	
 </div>
 
